@@ -35,3 +35,13 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 - Appropriate usage of packages
 - Is the application running as expected
 - No performance issues
+
+#### Changes Made
+- Added Validations for the bean Object
+- Added Custom Vaidation if  no data found in DB for the given employee ID
+- Responds the user with correct error response in case of any failure
+- Added ControllerAdvice for the Controller class
+
+
+#### If had more time
+- Can add test cases 
